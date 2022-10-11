@@ -1,6 +1,6 @@
 import {screen} from '@testing-library/react'
-import { authReducer } from '../../../auth/context/authReducer'
-import { types } from '../../../auth/types/types'
+import { authReducer } from '../../../src/auth/context'
+import { types } from '../../../src/auth/types/types' 
 
 describe('Pruebas en authReducer', () => { 
     test('debe de retornar el estado por defecto', () => { 
