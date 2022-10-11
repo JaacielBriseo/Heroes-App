@@ -3,12 +3,12 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../auth/context/AuthContext';
 
 export const Navbar = () => {
-  const { user,logout } = useContext(AuthContext);
+  const { user, logout } = useContext(AuthContext);
   // console.log(user);
   const navigate = useNavigate();
 
   const onLogout = () => {
-    logout()
+    logout();
     navigate('/login', {
       replace: true,
     });
@@ -16,7 +16,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
       <Link className="navbar-brand" to="/">
-        Asociaciones
+        Associations
       </Link>
 
       <div className="navbar-collapse">

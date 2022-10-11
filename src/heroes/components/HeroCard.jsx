@@ -26,7 +26,7 @@ export const HeroCard = ({
                 <small className="text-muted">{first_appearance}</small>
               </p>
               <Link to={`/hero/${id}`}>
-              Mas...
+              More...
               </Link>
             </div>
           </div>
