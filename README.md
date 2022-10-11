@@ -1,1 +1,1 @@
-#Pequeña aplicacion de heroes con ReactRouter
+Pequeña aplicacion de heroes con ReactRouter
